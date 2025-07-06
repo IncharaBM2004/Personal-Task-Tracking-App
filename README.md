@@ -17,8 +17,11 @@ A beautiful and responsive React app for managing your tasks, tracking your task
 - Smooth animations and transitions
   
 ----------Screenshots--------
-![App Screenshot](https://drive.google.com/file/d/1w3-lBYN2IDWPkGev3-W6sb6Be0IMU3YA/view?usp=sharing)
 
+<img width="956" alt="main interface" src="https://github.com/user-attachments/assets/c04f1191-d2af-417a-8e60-a28df9a37aba" />
+<img width="960" alt="task interface" src="https://github.com/user-attachments/assets/a7ce341a-ce93-404f-a1ff-0affebe9c5b7" />
+<img width="959" alt="dark mood" src="https://github.com/user-attachments/assets/f2b9855a-7d7d-4a61-9ffe-9d391ae6ed0a" />
+<img width="946" alt="Login page" src="https://github.com/user-attachments/assets/5c0f7da2-b95b-4c7d-9e89-c09259b738a3" />
 
 ------Tech Stack---------
 React.js
