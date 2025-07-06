@@ -2,30 +2,39 @@ import React, { useState, useEffect } from "react";
 import LoginInterface from "./components/LoginInterface";
 import SplashScreen from "./components/SplashScreen";
 import TaskList from "./components/TaskList";
-import DarkModeToggle from "./components/DarkModeToggle";
 import TaskForm from "./components/TaskForm";
 import TaskAnimation from "./components/TaskAnimation";
 import Lottie from "lottie-react";
 import backgroundAnim from "./assets/interface.json";
 import "./styles/App.css";
+import sampleTasks from "./sampledata";
 
 function App() {
+  const [tasks, setTasks] = useState([]);
   const [user, setUser] = useState("");
   const [showSplash, setShowSplash] = useState(false);
   const [tempUser, setTempUser] = useState("");
   const [isDark, setIsDark] = useState(false);
   const [showTaskForm, setShowTaskForm] = useState(false);
-  const [tasks, setTasks] = useState([]);
   const [filter, setFilter] = useState("All");
   const [taskToEdit, setTaskToEdit] = useState(null);
   const [searchQuery, setSearchQuery] = useState("");
 
+  // Load from localStorage, or use sample tasks
   useEffect(() => {
-    const stored = localStorage.getItem("tasks");
-    if (stored) {
-      setTasks(JSON.parse(stored));
+  const stored = localStorage.getItem("tasks");
+  if (stored) {
+    const data = JSON.parse(stored);
+    if (data.length === 0) {
+      setTasks(sampleTasks);
+    } else {
+      setTasks(data);
     }
-  }, []);
+  } else {
+    setTasks(sampleTasks);
+  }
+}, []);
+
 
   useEffect(() => {
     localStorage.setItem("tasks", JSON.stringify(tasks));
@@ -153,9 +162,24 @@ function App() {
           />
 
           <div className="task-filter">
-            <button className={filter === "All" ? "active" : ""} onClick={() => setFilter("All")}>All ({totalCount})</button>
-            <button className={filter === "Pending" ? "active" : ""} onClick={() => setFilter("Pending")}>Pending ({pendingCount})</button>
-            <button className={filter === "Completed" ? "active" : ""} onClick={() => setFilter("Completed")}>Completed ({completedCount})</button>
+            <button
+              className={filter === "All" ? "active" : ""}
+              onClick={() => setFilter("All")}
+            >
+              All ({totalCount})
+            </button>
+            <button
+              className={filter === "Pending" ? "active" : ""}
+              onClick={() => setFilter("Pending")}
+            >
+              Pending ({pendingCount})
+            </button>
+            <button
+              className={filter === "Completed" ? "active" : ""}
+              onClick={() => setFilter("Completed")}
+            >
+              Completed ({completedCount})
+            </button>
           </div>
 
           <TaskList
