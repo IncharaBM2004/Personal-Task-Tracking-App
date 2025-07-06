@@ -1,75 +1,57 @@
-<<<<<<< HEAD
-# Getting Started with Create React App
+Personal Task Tracking App
+A beautiful and responsive React app for managing your tasks, tracking your tasks, allowing you to choose priorities in your tasks, and creating dates and due dates for created tasks with a creative UI.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+ ---------Features--------
+- Simple Login (no authentication, stores username locally)
+- Splash screen animation on login
+- Add, edit, and delete tasks
+- Task priority levels (Low / Medium / High)
+- Due dates for tasks
+- Toggle task as complete/incomplete
+- Search tasks by title or description
+- Task filters: Normal, high, low
+- Caption (Optional)
+- Dark mode toggle
+- Persistent storage (tasks saved in localStorage)
+- Responsive UI for mobile and desktop
+- Smooth animations and transitions
+  
+----------Screenshots--------
+![App Screenshot](https://drive.google.com/file/d/1w3-lBYN2IDWPkGev3-W6sb6Be0IMU3YA/view?usp=sharing)
 
-## Available Scripts
 
-In the project directory, you can run:
+------Tech Stack---------
+React.js
+CSS
+Framer Motion
+Lottie React
+React Icons
+gh-pages (for deployment)
 
-### `npm start`
+------Setup Instructions-------
+To run the app locally:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+------Clone this repository--------
+[git clone]( https://github.com/IncharaBM2004/Personal-Task-Tracking-App.git)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+------Install dependencies------------
+npm install
+Start the app:
+npm start
+The app will be running at:
+[local host](http://localhost:3000)
 
-### `npm test`
+----------Deployment-----------------
+This project is deployed using GitHub Pages.
+To deploy:
+npm run deploy
+---------Demo Links---------------
+GitHub Repository: View Repo
+[GitHub Repository](https://github.com/IncharaBM2004/Personal-Task-Tracking-App)
+[Live Demo](https://IncharaBM2004.github.io/Personal-Task-Tracking-App)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+-----------Notes-----------------
+Tasks persist across page refreshes thanks to localStorage.
+Dark mode styling has been customized for better readability.
+All animations are lightweight for performance.
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-=======
-# personal-task-tracker
-A personal task management  and tracking app built in React.
->>>>>>> adb1466380b8852318662dbfb2e85aa43769aa76
