@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Personal-Task-Tracking-App/static/css/main.76f84598.css",
+    "main.js": "/Personal-Task-Tracking-App/static/js/main.563df8df.js",
+    "index.html": "/Personal-Task-Tracking-App/index.html",
+    "main.76f84598.css.map": "/Personal-Task-Tracking-App/static/css/main.76f84598.css.map",
+    "main.563df8df.js.map": "/Personal-Task-Tracking-App/static/js/main.563df8df.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.76f84598.css",
+    "static/js/main.563df8df.js"
+  ]
+}
