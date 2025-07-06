@@ -26,12 +26,13 @@ A beautiful and responsive React app for managing your tasks, tracking your task
 <img width="946" alt="Login page" src="https://github.com/user-attachments/assets/5c0f7da2-b95b-4c7d-9e89-c09259b738a3" />
 
 ------Tech Stack---------
--React.js
--CSS
--Framer Motion
--Lottie React
--React Icons
--gh-pages (for deployment)
+
+- React.js
+- CSS
+- Framer Motion
+- Lottie React
+- React Icons
+- gh-pages (for deployment)
 
 ------Setup Instructions-------
 To run the app locally:
@@ -46,18 +47,23 @@ To run the app locally:
 4. The app will be running at:
 [local host](http://localhost:3000)
 
--Deployment
+- Deployment
 This project is deployed using GitHub Pages.
 To deploy:
 npm run deploy
--Demo Links
+- Demo Links
 GitHub Repository: View Repo
 [GitHub Repository](https://github.com/IncharaBM2004/Personal-Task-Tracking-App)
-Live demo
+Live Demo
 [Live Demo](https://IncharaBM2004.github.io/Personal-Task-Tracking-App)
 
--Notes
+- Notes
 Tasks persist across page refreshes thanks to localStorage.
 Dark mode styling has been customized for better readability.
 All animations are lightweight for performance.
 
+- Sample Test screenshots
+  
+<img width="940" alt="sampledata" src="https://github.com/user-attachments/assets/ab52e9d6-0069-4bfa-b313-5989c5556229" />
+
+<img width="958" alt="sampledata2" src="https://github.com/user-attachments/assets/5f93ce66-d092-47b2-8895-602cf00a374f" />
